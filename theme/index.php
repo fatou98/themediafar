@@ -17,94 +17,115 @@
 </head>
 <body>
 <style>
-body{
-    font-family:Times New Roman;
+body {
+    font-family: Times New Roman;
 }
 
 .nav-wrapper ul li a {
     font-size: 20px;
-    text-decoration:none;
-
+    text-decoration: none;
 }
-a{
-    text-decoration:none;
 
+a {
+    text-decoration: none;
 }
-#index-banner{
+
+#index-banner {
     background-image: url(./images/back1-sombre.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: auto;
-padding-bottom:50px;
-            -webkit-animation-name: example;
-            /* Safari 4.0 - 8.0 */
-            -webkit-animation-duration: 4s;
-            /* Safari 4.0 - 8.0 */
-            animation-name: example;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-        @-webkit-keyframes example {
-            0% {
-                background-image: url(./images/bini.jpg);
-            }
-        
-            50% {
-                background-image: url(./images/back1-sombre.png);
-            }
-        }
-        /* Standard syntax */
-        
-        @keyframes example {
-            0% {
-                background-image: url(./images/bini.jpg);
-            }
-        
-            50% {
-                background-image: url(./images/back1-sombre.png);
-            }
-        }
-        #recherche{
-            text-align:center;
-           
-        }
-        .selectser{
-            margin-right:-30px;
-        }
-        label{
-          font-size:18px;
-          color:orange;
-          font-weight:bold;
-        }
-        .divdiv{
-            margin-top:50px;
-        }
-        .service{
-          text-align:center;
-          display:flex;
-          flex-wrap:wrap;
-        }
-        /*039be5*/
-</style>
+@-webkit-keyframes example {
+    0% {
+        background-image: url(./images/bini.jpg);
+    }
+    50% {
+        background-image: url(./images/back1-sombre.png);
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes example {
+    0% {
+        background-image: url(./images/bini.jpg);
+    }
+    50% {
+        background-image: url(./images/back1-sombre.png);
+    }
+}
+
+#recherche {
+    text-align: center;
+}
+
+.selectser {
+    margin-right: -30px;
+}
+
+label {
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+.divdiv {
+    margin-top: 50px;
+}
+
+.service {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconess {
+    border-radius: 50%;
+    color: white;
+    background-color: #29b6f6;
+    width: 100px;
+    height: 100px;
+    font-size: 30pt;
+    line-height: 45px;
+    padding: 25px;
+}
+
+.iicon {
+    font-size: 50px;
+}
+
+
+/*039be5*/</style>
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">HELLO DOCTEUR</a>
       <ul class="right hide-on-med-and-down">
       <li><a href="#">Accueil</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#services">Services</a></li>
       <li><a href="#">A propos</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#"><i class="material-icons">account_circle</i></a></li>
+      <li><a href="./contact.php">Contact</a></li>
+      <li><a href="./profil.php"><i class="material-icons">account_circle</i></a></li>
 
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
       <li><a href="#">Accueil</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#services">Services</a></li>
       <li><a href="#">A propos</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#"><i class="material-icons">account_circle</i>Mon profil</a></li>
+      <li><a href="./contact.php">Contact</a></li>
+      <li><a href="./profil.php"><i class="material-icons">account_circle</i>Mon profil</a></li>
 
             </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -158,18 +179,41 @@ padding-bottom:50px;
   </div>
 
 
-  <div class="container-fluid" style="text-align:center;padding:30px;background-color:#29b6f6;">
+  <div class="container-fluid" id="services" style="text-align:center;padding:30px;background-color:white;">
   <div class="rowe" >
   <h2 >Les avantages de HELLO DOCTEUR</h2>
   </div>
+  <br><br>
   <div class="row">
-  <div class="col-lg-4 col-xs-6">edrftgyh</div>
-  <div class="col-lg-4 col-xs-6">edrftgyh</div>
-  <div class="col-lg-4 col-xs-6">edrftgyh</div>
+  <div class="col-lg-4 col-xs-6">
+  <span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3>
+</div>
+  <div class="col-lg-4 col-xs-6"><span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3></div>
+  <div class="col-lg-4 col-xs-6"><span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3></div>
   </div>
   </div>
 
-  <footer class="page-footer orange">
+  <div class="container-fluid" style="text-align:center;padding:30px;background-color:orange;">
+  <div class="rowe" >
+  <h2 >Les avantages de HELLO DOCTEUR</h2>
+  </div>
+  <br><br>
+  <div class="row">
+  <div class="col-lg-4 col-xs-6">
+  <span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3>
+</div>
+  <div class="col-lg-4 col-xs-6"><span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3></div>
+  <div class="col-lg-4 col-xs-6"><span class="iconess"><i class="material-icons iicon">date_range</i></span><br><br>
+  <h3>Prise de rendez-vous</h3></div>
+  </div>
+  </div>
+
+  <footer class="page-footer light-blue lighten-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">

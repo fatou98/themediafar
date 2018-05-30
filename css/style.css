@@ -1,136 +1,163 @@
-body{
-    font-family:Times New Roman;
+body {
+    font-family: Times New Roman;
 }
-.navbar,.header{
-    background:none;
+
+.navbar,
+.header {
+    background: none;
     border: none;
-    color:black;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
-#user{
+
+#user {
     font-size: 30px;
 }
-#entete{
+
+#entete {
     background-image: url(../images/back1-sombre.png);
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
-ul li a:active{
-    font-size:20px;
-    height:50px;
-    width:150px;
+
+ul li a:active {
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
 }
+
 ul li a {
-    font-size:20px;
-    font-weight:bold;
-    height:50px;  
-      width:150px;
-      font-family:Times New Roman;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    font-family: Times New Roman;
 }
-.recherche{
+
+.recherche {
     padding: 20px;
-    height:auto;
+    height: auto;
     opacity: 0.5;
-    margin: 100px;    margin-top: 200px;
-/*#00c2ec*/
+    margin: 100px;
+    margin-top: 200px;
+    /*#00c2ec*/
     background-color: black;
 }
-.titre{
-    background-color: #00c2ec;
-    height:110px;
-    color:white;
-    font-size: 24px;    font-weight: bold;
-    margin-bottom: 10px;
 
+.titre {
+    background-color: #00c2ec;
+    height: 110px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-.search{
+
+.search {
     height: 45px;
     margin-right: 10px;
 }
-.div{
+
+.div {
     margin-right: 20px;
 }
-.buttonsearch{
+
+.buttonsearch {
     margin-top: 30px;
-    height:50px;
+    height: 50px;
     background-color: #00c2ec;
     font-size: 30px;
     color: white;
     font-weight: bold;
-
 }
-.input-group{
+
+.input-group {
     margin-bottom: 20px;
 }
-#titrage{
+
+#titrage {
     font-weight: bold;
 }
-.services{
+
+.services {
     background-color: #00c2ec;
     text-align: center;
     padding: 20px;
-
 }
-.icones{
-     color: white;
+
+.icones {
+    color: white;
     font-size: 42px;
     border-radius: 50%;
-    padding:25px;
+    padding: 25px;
 }
-#icone1{
+
+#icone1 {
     background-color: aqua;
 }
-#icone2{
+
+#icone2 {
     background-color: red;
 }
-#icone3{
+
+#icone3 {
     background-color: green;
 }
 
-#icone4{
+#icone4 {
     background-color: pink;
 }
-#icone5{
+
+#icone5 {
     background-color: gray;
 }
-#icone6{
+
+#icone6 {
     background-color: blue;
 }
 
-#icone7{
+#icone7 {
     background-color: turquoise;
 }
-#icone8{
+
+#icone8 {
     background-color: maroon;
 }
-#icone9{
+
+#icone9 {
     background-color: yellowgreen;
 }
-.qoi{
+
+.qoi {
     display: flex;
     flex-wrap: wrap;
 }
-.ser{
+
+.ser {
     margin-bottom: 20px;
 }
-#docteur{
+
+#docteur {
     background-color: white;
     text-align: center;
     padding: 20px;
-}li{
+}
+
+li {
     font-size: 18px;
     line-height: 30px;
 }
-.footer{
+
+.footer {
     background-image: url(../images/bini.jpg);
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
+
 .footerbak {
     background-color: black;
     opacity: 0.5;
